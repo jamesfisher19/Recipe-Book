@@ -13,7 +13,7 @@ export default function Main() {
     async function getRecipe() {
         const recipeMarkdown = await getRecipeFromClaude(ingredients)
         setRecipe(recipeMarkdown)
-        console.log(recipeMarkdown)
+        // console.log(recipeMarkdown)
     }
 
     function addIngredient(event){
@@ -22,7 +22,7 @@ export default function Main() {
         const newIngredient = formData.get("ingredient")
         setMyIngredients(prevMyIngredients => [...prevMyIngredients, newIngredient])
         event.target.reset(); 
-        console.log(ingredients)
+        // console.log(ingredients)
     }
 
     const ingredientsTitleText = 
