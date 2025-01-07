@@ -1,8 +1,5 @@
-# React + Vite
+# [Link](https://ai-recipe-book.netlify.app/)
+Enter at least 2 ingredients to generate a recipe.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+###### Note
+The recipe will use the ingredients you list, however it will also add a few supporting ingredients if necessary!
